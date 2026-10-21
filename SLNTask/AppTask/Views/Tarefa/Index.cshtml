@@ -85,7 +85,7 @@
             var descricao = button.getAttribute('data-descricao');
 
             var modalDescricaoSpan = deleteModal.querySelector('#tarefaDescricao');
-            modalDescricaoSpan.textContent = descricao;
+            modalDescricaoSpan.textContent = descricao; 
 
             var deleteForm = deleteModal.querySelector('#deleteForm');
             deleteForm.action = '/Tarefa/Delete/' + id;
